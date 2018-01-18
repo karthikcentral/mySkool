@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { BrowserAnimationsModule,NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -55,8 +54,6 @@ import { DiaryComponent } from '../components/diary/diary';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    NoopAnimationsModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
