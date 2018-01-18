@@ -1,29 +1,86 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { BrowserAnimationsModule,NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import {MessagesPage} from '../pages/messages/messages';
+import {AssignmentsPage} from '../pages/assignments/assignments';
+import {TimetablePage} from '../pages/timetable/timetable';
+import {AttendancePage} from '../pages/attendance/attendance';
+import{AnnouncementsPage} from  '../pages/announcements/announcements';
+import{ReportcardPage} from  '../pages/reportcard/reportcard';
+import{GalleryPage} from  '../pages/gallery/gallery';
+import{EventPage} from  '../pages/event/event';
+import{LoginPage} from  '../pages/login/login';
+import{GallerydetailPage} from  '../pages/gallerydetail/gallerydetail';
+import{AttteacherselfPage} from  '../pages/attteacherself/attteacherself';
+import{AttteacherclassPage} from  '../pages/attteacherclass/attteacherclass';
+import{TimetableteacherPage} from  '../pages/timetableteacher/timetableteacher';
+import{HometeacherPage} from  '../pages/hometeacher/hometeacher';
+import{NoticeboardPage} from  '../pages/noticeboard/noticeboard';
+import{ActivitiesPage} from  '../pages/activities/activities';
+import{StudentprofilePage} from  '../pages/studentprofile/studentprofile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { DiaryComponent } from '../components/diary/diary';
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    DiaryComponent,
+    MessagesPage,
+    AssignmentsPage,
+    TimetablePage,
+    AttendancePage,
+    AnnouncementsPage,
+    ReportcardPage,
+    GalleryPage,
+    EventPage,
+    LoginPage,
+    GallerydetailPage,
+    AttteacherselfPage,
+    AttteacherclassPage,
+    TimetableteacherPage,
+    HometeacherPage,
+    NoticeboardPage,
+    ActivitiesPage,
+    StudentprofilePage
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MessagesPage,
+    AssignmentsPage,
+    TimetablePage,
+    AttendancePage,
+    AnnouncementsPage,
+    ReportcardPage,
+    GalleryPage,
+    EventPage,
+    LoginPage,
+    GallerydetailPage,
+    AttteacherselfPage,
+    AttteacherclassPage,
+    TimetableteacherPage,
+    HometeacherPage,
+    NoticeboardPage,
+    ActivitiesPage,
+    StudentprofilePage
   ],
   providers: [
     StatusBar,

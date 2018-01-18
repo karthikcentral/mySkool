@@ -1,0 +1,85 @@
+<ion-content>
+    <ion-grid style="height:90px;background-color:#2A4E8E">
+         <ion-row>
+             <ion-col col-2 (click)="goHome()">
+                     <img src="assets/icon/profile.jpg" style="width:50px;height:50px;border:2px solid white;border-radius:8%">
+             </ion-col>
+             <ion-col col-5>
+                     <span style="font-family: Helvetica-Bold;
+                     font-size: 14px;
+                     color: #FFFFFF;display:block">Karthik Prabu</span>
+                     <span style="font-family: Helvetica;
+                     font-size: 12px;
+                     color: #DCDCDC;">12 Grade</span>
+             </ion-col>
+             <ion-col col-5 style="text-align:right">
+                     <span style="/* Holiday: */
+                     font-family: Helvetica-Bold;
+                     font-size: 14px;
+                     color: #FFFFFF;">Holiday</span>
+                     <span style="/* Tomorrow is Holiday: */
+                     font-family: Helvetica-Bold;
+                     font-size: 18px;
+                     color: #FFFFFF;">Tomorrow is Holiday</span>
+             </ion-col>
+         </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <span style="/* Prev: */
+                font-family: Helvetica;
+                font-size: 14px;
+                color: #898989;">Prev</span>
+            </ion-col>
+            <ion-col>
+                 <span style="/* October: */
+                 font-family: Helvetica;
+                 font-size: 18px;
+                 color: #12850C;">Wednesday</span>
+             </ion-col>
+             <ion-col style="/* Next: */
+             font-family: Helvetica;
+             font-size: 14px;
+             color: #898989;text-align:right">
+                 <span>Next</span>
+             </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid style="border-bottom:1px solid #989898" *ngFor="let n of [0,1,2,3]">
+        <ion-row style="align-items:center">
+            
+            <ion-col>
+                <ion-row>
+                     <ion-col>
+                         <span style="/* Tomorrow is Holiday: */
+                         font-family: Helvetica;
+                         font-size: 20px;
+                         color: #2A4E8E;">Tomorrow is Holiday
+                         </span>
+                     </ion-col>
+                </ion-row>
+                <ion-row>
+                     <ion-col>
+                         <span style="/* Sep: */
+                         font-family: Helvetica;
+                         font-size: 12px;
+                         color: #898989;">Due to Rain, decalaring tomorow as holiday. 
+                         Contact office for more detail.</span>
+                     </ion-col>
+                </ion-row>
+            </ion-col>
+            <ion-col col-2>
+                <ion-row>
+                    <ion-col>
+                        <span style="/* Sep: */
+                        font-family: Helvetica;
+                        font-size: 18px;
+                        color: #2A4E8E;">30 Sep</span>
+                    </ion-col>
+               </ion-row>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+ </ion-content>
+ 

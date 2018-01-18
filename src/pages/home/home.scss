@@ -1,3 +1,36 @@
+$newcolor:   #0b6fbc;
 page-home {
+.a1{
+   background: linear-gradient(to right, #0345A9 0%,#020B8F 30%,rgba(255,255,255,1) 90%);
+   height:20px;
+   color:white;
+   text-align: center;
+}
+.det{
+    color: black;
+    padding: 10px;
+    border: 1px solid #0b6fbc;
+    margin-bottom: 3px;
+    border-top-right-radius: 10px;
+}
+.iconCss{
+    text-align: center;
+    padding: 10px;
+    color: #0b6fbc;
+    font-size:1.1em;
+    ion-icon{
+        font-size: 2.5em;
+    }
+}
+}
 
+.bgTri{
+    background: transparent;
+    background: linear-gradient(to top left, white 0%, white 50%, #2a4f8e 50%, #2a4f8e 50%, #2a4f8e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2a4f8e', GradientType=1 );
+}
+.coldiv{
+    background-color:#2A4E8E; border-radius:20%;color:white;padding: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
 }

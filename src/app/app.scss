@@ -14,3 +14,69 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.item-profile {
+  height: 150px;
+  color:white;
+  background-image: linear-gradient(-180deg, #0b6fbc 0%, #098DF2 100%);
+  .item-avatar > img:first-child {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  img {
+    border-radius: 100%;
+    width: 10vh;
+    height:10vh;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.item-avatar{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    
+}
+  .ActiveBGColor{
+    background-color:#0b6fbc;
+    color:white;
+  }
+// ion-content{
+//   background-color: #F7F0F0 !important;
+// }
+.select-md{
+  padding:0px;
+  max-width: 100%;
+ .select-icon{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    bottom: 0;
+    right: 0;
+}
+}
+.grid{
+.item-md{
+  border:1px solid black;
+}
+.list-md{
+  margin:0px;
+}
+}
+
+.labelMS{
+  font-family: Helvetica-Bold;
+  font-size: 14px;
+  color: #8A8A8A;
+}
+.valueMS{
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #12850C;
+}
+.modalMS{
+  width:80%;
+  left:10%;top:10%;position:absolute;background:white;height:80%;
+  border:1px solid #8A8A8A;
+  border-radius: 20px;
+}

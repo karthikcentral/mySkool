@@ -1,18 +1,64 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content>
+  <ion-grid  class="bgTri" id="section1">
+  <ion-row>
+    <ion-col col-6>
+      <img src="assets/icon/profile.jpg" style="width:50px;height:50px;border:2px solid white;border-radius:8%">
+      <p style="font-weight:bold;font-size:14px;color:white">Karthik Prabu</p>
+      <p style="font-size:12px;color:white">12 Grade</p>
+    </ion-col>
+    <ion-col col-6 style="text-align:right;">
+      <h3 style="color:#12850C">5</h3>
+      <p>Rank</p>
+      <h3 style="color:#12850C">24/24</h3>
+      <p>Attendance</p>
+      <h3 style="color:#12850C">1 Oct</h3>
+      <p>Next Exam</p>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+  <ion-grid id="section2" [ngStyle]="getSection()">
+    <ion-row class="rowMS" [ngStyle]="rowHeight()" >
+      <ion-col class="coldiv" (click)="goAtten()">
+        <img src="assets/icon/atten.svg">
+         <p>Attendance</p> 
+      </ion-col>
+      <ion-col class="coldiv" (click)="goTimetable()">
+          <img src="assets/icon/timetable.svg">
+          <p>Timetable</p>
+      </ion-col>
+      <ion-col col-2>
+          
+      </ion-col>
+    </ion-row>
+    <ion-row class="rowMS"  [ngStyle]="rowHeight()">
+        <ion-col class="coldiv" (click)="goAcademic()">
+            <img src="assets/icon/academic.svg">
+            <p>Academics</p>
+        </ion-col>
+        <ion-col class="coldiv" (click)="goNotice()">
+            <img src="assets/icon/notice.svg">
+            <p>Notice Board</p>
+        </ion-col>
+        <ion-col col-2>
+            
+        </ion-col>
+      
+    </ion-row>
+    <ion-row class="rowMS"  [ngStyle]="rowHeight()">
+        <ion-col class="coldiv" (click)="goActivity()">
+            <img src="assets/icon/activity.svg">
+            <p>Activities</p>
+              
+                  </ion-col>
+                  <ion-col class="coldiv" (click)="goMedia()">
+                      <img src="assets/icon/gallery.svg">
+                      <p>Media</p>
+                    
+                  </ion-col>
+                  <ion-col col-2>
+                      
+                  </ion-col>
+      
+    </ion-row>
+    </ion-grid>
 </ion-content>

@@ -1,0 +1,71 @@
+<ion-header>
+   <ion-navbar color="newcolor">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Assignments</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <h2>Assignments</h2>
+    <hr>
+    <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-list>
+      <ion-item>
+        <ion-select [(ngModel)]="month">
+          <ion-option value="jan">January</ion-option>
+          <ion-option value="feb">Feburary</ion-option>
+          <ion-option value="mar">March</ion-option>
+          <ion-option value="apr">April</ion-option>
+          <ion-option value="may">May</ion-option>
+          <ion-option value="jun" selected>June</ion-option>
+          <ion-option value="jul">July</ion-option>
+          <ion-option value="aug">August</ion-option>
+          <ion-option value="sep">September</ion-option>
+          <ion-option value="oct">October</ion-option>
+          <ion-option value="nov">November</ion-option>
+          <ion-option value="dec">December</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+      </ion-col>
+      <ion-col col-6>
+          <ion-list>
+      <ion-item>
+        <ion-select [(ngModel)]="year">
+          <ion-option value="2016">2016</ion-option>
+          <ion-option value="2017" selected>2017</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+    <hr>
+    <ion-card>
+    <ion-card-header>
+      25 June 2017
+    </ion-card-header>
+    <ion-card-content>
+      The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+    </ion-card-content>
+    </ion-card> 
+   <ion-card>
+    <ion-card-header>
+      27 June 2017
+    </ion-card-header>
+    <ion-card-content>
+      The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+    </ion-card-content>
+    </ion-card> 
+   <ion-card>
+    <ion-card-header>
+      29 June 2017
+    </ion-card-header>
+    <ion-card-content>
+      The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+    </ion-card-content>
+    </ion-card> 
+</ion-content>

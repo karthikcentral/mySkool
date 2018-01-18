@@ -1,0 +1,20 @@
+page-attendance {
+    .item-block{
+        min-height: 0 !important;
+        transition: 0.09s all linear !important;
+        border:0px !important;
+      }
+      ion-item-group {
+        padding-bottom: 5px;
+      }
+      .labelMS{
+        font-family: Helvetica-Bold;
+        font-size: 14px;
+        color: #8A8A8A;
+      }
+      .valueMS{
+        font-family: Helvetica;
+        font-size: 24px;
+        color: #12850C;
+      }
+}

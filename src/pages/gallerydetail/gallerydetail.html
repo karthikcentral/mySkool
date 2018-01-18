@@ -1,0 +1,41 @@
+<ion-content>
+    <ion-grid style="height:90px;background-color:#2A4E8E">
+         <ion-row>
+             <ion-col col-5 (click)="goBack()">
+                     <span style="font-family: Helvetica-Bold;
+                     font-size: 14px;
+                     color: #FFFFFF;display:block">Back</span>
+             </ion-col>
+             <ion-col style="text-align:right">
+                     <span style="font-family: Helvetica-Bold;
+                     font-size: 14px;
+                     color: #FFFFFF;display:block">Event</span>
+                     <span style="
+                     font-family: Helvetica-Bold;
+                     font-size: 20px;
+                     color: #FFFFFF;">Annual Day</span>
+             </ion-col>
+         </ion-row>
+    </ion-grid>
+    <ion-grid style="margin-top:20px" *ngFor="let n of [0,1,2]">
+        <ion-row>
+          <ion-col col-1>
+
+          </ion-col>
+          <ion-col >
+            <img src="assets/icon/profile.jpg" width="100%" height="100%" style="border: 1px solid #979797;
+            border-radius: 20px;height:110px">
+          </ion-col>
+          <ion-col col-1>
+
+          </ion-col>
+          <ion-col >
+          <img src="assets/icon/profile.jpg" width="100%" height="100%" style="border: 1px solid #979797;
+          border-radius: 20px;height:110px">
+          </ion-col>
+          <ion-col col-1></ion-col>
+        </ion-row>
+    </ion-grid>
+    
+ </ion-content>
+ 

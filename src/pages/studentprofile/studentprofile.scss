@@ -1,0 +1,29 @@
+page-studentprofile {
+    .bgTri{
+        background: transparent;
+        background: linear-gradient(to top left, white 0%, white 50%, #2a4f8e 50%, #2a4f8e 50%, #2a4f8e 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2a4f8e', GradientType=1 );
+    }
+
+    ion-input{
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .list-ios[inset] .item{
+        border:none;
+    }
+
+    .list-md .item-block .item-inner{
+        border:none;
+    }
+    .grid .item-md{
+        border: none;
+    }
+
+    .item-inner {
+        border:none !important;
+    }
+}
+    
