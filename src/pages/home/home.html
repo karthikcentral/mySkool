@@ -5,15 +5,45 @@
       </ion-row>
       <ion-row class="bgContent">
           <ion-col class="colContent">
-              <span class="contentName">Karthik</span>
+              <span class="contentName">Karthik</span><br/>
               <span class="contentClass">8th Grade</span>
           </ion-col>
-          
       </ion-row>
     </ion-grid>
     <ion-grid id="section2">
-      <ion-row class = "bgAttendance">
-          <span class="Attendance">Attendance</span>
+      <ion-row class = "bgAttendance" (click)="goAtten()">
+          <ion-col ><span class="Attendance">Attendance</span></ion-col>
+          <ion-col col-3>
+              <img src="assets/icon/rightArrow.svg">
+          </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col (click)="goTimetable()">
+            <div class="divsection1" text-center>
+            <img class="iconTime" src="assets/icon/calendar.svg">
+            <p class="Timetable">Timetable</p>
+          </div>
+          </ion-col>
+          <ion-col (click)="goAcademic()">
+            <div class="divsection2" text-center>
+              <img class="iconAcademics" src="assets/icon/book.svg">
+              <p class="Academics">Academics</p>
+            </div>
+            </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col>
+            <div class="divsection3" text-center>
+            <img class="iconAnnous" src="assets/icon/announcement.svg">
+            <p class="Announcement">Announcement</p>
+          </div>
+          </ion-col>
+          <ion-col>
+            <div class="divsection4" text-center>
+              <img class="iconProfile" src="assets/icon/profile.svg">
+              <p class="Profile">Profile</p>
+            </div>
+            </ion-col>
       </ion-row>
     </ion-grid>
   </ion-content>

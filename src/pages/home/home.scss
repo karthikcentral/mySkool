@@ -108,4 +108,83 @@ page-home {
     text-align: center;
     color: #534b30;
   };
-  
+  .divsection1 {
+    background-color: #003399;
+    border: solid 1px #979797;
+  };
+  .divsection2 {
+    background-color: #62a9e3;
+    border: solid 1px #979797;
+  };
+  .Timetable {
+   // width: 98px;
+    height: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  };
+  .iconTime {
+    transform: translateY(25px);
+  };
+  .iconAcademics {
+    transform: translateY(25px);
+  };
+  .Academics {
+   // width: 108px;
+    height: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  };
+  .divsection3 {
+    background-color: #637c8f;
+    border: solid 1px #979797;
+  };
+  .Announcement {
+    //width: 149px;
+    height: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  };
+  .iconAnnous {
+    transform: translateY(25px);
+  };
+  .divsection4{
+    background-color: #002144;
+  border: solid 1px #979797;
+  };
+  .Profile {
+    //width: 64px;
+    height: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  };
+  .iconProfile {
+    transform: translateY(25px);
+  };
