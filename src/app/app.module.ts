@@ -26,6 +26,9 @@ import{StudentprofilePage} from  '../pages/studentprofile/studentprofile';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { DiaryComponent } from '../components/diary/diary';
+import { SummaryPage } from '../pages/summary/summary';
+import { CalendarPage } from '../pages/calendar/calendar';
+import { ApplyleavePage } from '../pages/applyleave/applyleave';
 
 
 @NgModule({
@@ -50,7 +53,10 @@ import { DiaryComponent } from '../components/diary/diary';
     HometeacherPage,
     NoticeboardPage,
     ActivitiesPage,
-    StudentprofilePage
+    StudentprofilePage,
+    SummaryPage,
+    CalendarPage,
+    ApplyleavePage
   ],
   imports: [
     BrowserModule,
@@ -77,7 +83,10 @@ import { DiaryComponent } from '../components/diary/diary';
     HometeacherPage,
     NoticeboardPage,
     ActivitiesPage,
-    StudentprofilePage
+    StudentprofilePage,
+    SummaryPage,
+    CalendarPage,
+    ApplyleavePage
   ],
   providers: [
     StatusBar,
