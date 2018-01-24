@@ -1,19 +1,23 @@
 <ion-content>
+        
     <ion-grid>
+         <div ion-fixed style="width: 100%;">
         <ion-row class="mbgAttendance">
             <ion-col col-2 text-center>
                 <ion-icon class="menuicon" name="menu"></ion-icon>
             </ion-col>
                 <ion-title><p class="mAttendance">Attendance</p></ion-title>
         </ion-row>
+        </div>
     </ion-grid>
-    <ion-grid>
-        <ion-row class="navAtten"></ion-row>
-                <ion-tabs>
-                        <ion-tab [root]="summaryPage" tabTitle="Summary" tabIcon = "star"></ion-tab>
-                        <ion-tab [root]="calendarPage" tabTitle="Calendar" tabIcon = "book"></ion-tab>
-                        <ion-tab [root]="tab3Root" tabTitle="Apply Leave" tabIcon = "star"></ion-tab>
-                </ion-tabs>
+        <!-- <ion-row class="navAtten"> -->
+    <ion-tabs class="tabs-color-active-positive" style="top:55px">
+        <ion-tab [root]="summaryRoot" tabTitle="Summary" ></ion-tab>
+        <ion-tab [root]="calendarRoot" tabTitle="Calendar"></ion-tab>
+        <ion-tab [root]="applyLeaveRoot" tabTitle="Apply Leave" ></ion-tab>
+    </ion-tabs>
         
-    </ion-grid>
+       
+        
+    
 </ion-content>

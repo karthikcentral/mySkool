@@ -2,6 +2,9 @@ import { Component,trigger, state, style, animate, transition } from '@angular/c
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import moment from 'moment';
 import {HomePage} from '../../pages/home/home';
+import { SummaryPage } from '../summary/summary';
+import { CalendarPage } from '../calendar/calendar';
+import { ApplyleavePage } from '../applyleave/applyleave';
 
 /**
  * Generated class for the AttendancePage page.
@@ -23,6 +26,11 @@ import {HomePage} from '../../pages/home/home';
   ]
 })
 export class AttendancePage {
+
+  summaryRoot = SummaryPage;
+  calendarRoot = CalendarPage;
+  applyLeaveRoot = ApplyleavePage;
+
   monthList : any;
   userData :any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {

@@ -60,7 +60,7 @@ import { ApplyleavePage } from '../pages/applyleave/applyleave';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,{tabsPlacement: 'top'}),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
