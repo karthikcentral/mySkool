@@ -30,12 +30,14 @@ export class AttendancePage {
   summaryRoot = SummaryPage;
   calendarRoot = CalendarPage;
   applyLeaveRoot = ApplyleavePage;
+  
 
   monthList : any;
   userData :any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.userData = this.getData().month;
     this.monthList = this.frameSwiper();
+    
   }
 
   ionViewDidLoad() {

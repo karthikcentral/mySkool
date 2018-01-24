@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { ChartsModule } from 'ng2-charts'
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -60,7 +61,23 @@ import { ApplyleavePage } from '../pages/applyleave/applyleave';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp,{tabsPlacement: 'top'}),
+    ChartsModule,
+    IonicModule.forRoot(MyApp,{
+      tabsPlacement: 'bottom',
+        platforms: {
+          android: {
+            tabsPlacement: 'top'
+          },
+          ios: {
+            tabsPlacement: 'bottom'
+          },
+          windows:
+          {
+            tabsPlacement: 'top'
+          }
+        }
+      }
+    ),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
