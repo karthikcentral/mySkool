@@ -1,3 +1,41 @@
 page-applyleave {
 
 }
+.no-scroll .scroll-content{
+    overflow: hidden;
+};
+.alGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+};
+.cardBorder {
+    background-color: rgba(42, 78, 142, 0.08);
+    border: solid 1px #979797;
+}
+.card-ios {
+    background: rgba(42, 78, 142, 0.08)  !important;
+    
+};
+.card-md {
+    background: rgba(42, 78, 142, 0.08) !important;
+};
+.card-wp {
+    background: rgba(42, 78, 142, 0.08) !important;
+};
+.item-ios{
+    background-color: rgba(42, 78, 142, 0.08) !important;
+};
+.item-md {
+    background-color: rgba(42, 78, 142, 0.08) !important;
+};
+.item-wp {
+    background-color: rgba(42, 78, 142, 0.08) !important;
+};
+.bbcolor {
+    background-color: rgba(42, 78, 142, 0.08);
+};
+.input-wrapper {
+    border-bottom:  solid 2px #3a3a3a;
+}

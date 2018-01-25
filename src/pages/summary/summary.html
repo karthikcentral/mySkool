@@ -1,7 +1,9 @@
 
 
 
-<ion-content  padding>
+<ion-content  padding class="no-scroll">
+    <ion-grid text-center class="suGrid" style = "height: 567px;">
+    <ion-row justify-content-center align-items-center>
         <div style="display: block">
             <canvas baseChart
                 [data]="pieChartData"
@@ -11,5 +13,6 @@
                 (chartClick)="chartClicked($event)">
             </canvas>
         </div>
-
+    </ion-row>
+    </ion-grid>
 </ion-content>

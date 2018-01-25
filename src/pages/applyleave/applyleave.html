@@ -1,6 +1,25 @@
 
 
 
-<ion-content padding>
-
+<ion-content padding class="no-scroll">
+<ion-grid text-center class="alGrid">
+    <ion-row justify-content-center align-items-center>
+    <ion-card class="cardBorder">
+        <ion-list>
+        <ion-item>
+            <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="fromDate" placeholder="From Date"></ion-datetime>
+        </ion-item>
+        <ion-item>
+            <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="toDate" placeholder="To Date"></ion-datetime>
+        </ion-item>
+        <ion-item>
+        <ion-textarea [(ngModel)]="description"  placeholder="Reason"></ion-textarea>
+        </ion-item>
+    </ion-list>
+    <div padding class="bbcolor">
+        <button ion-button>Apply</button>
+    </div>
+</ion-card>
+    </ion-row>
+</ion-grid>
 </ion-content>

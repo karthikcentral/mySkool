@@ -1,7 +1,7 @@
-<ion-content >
+<ion-content no-padding>
         
-    <ion-grid>
-         <div ion-fixed style="width: 100%;">
+    <ion-grid class="rowAttendance">
+         <div ion-fixed class="fixed" style="width: 100%;">
         <ion-row class="mbgAttendance">
             <ion-col col-2 text-center>
                 <ion-icon class="menuicon" name="menu"></ion-icon>
@@ -11,7 +11,7 @@
         </div>
     </ion-grid>
         <!-- <ion-row class="navAtten"> -->
-    <ion-tabs  style="top:55px">
+    <ion-tabs  style="top:50px">
         <ion-tab [root]="summaryRoot" tabTitle="Summary" ></ion-tab>
         <ion-tab [root]="calendarRoot" tabTitle="Calendar"></ion-tab>
         <ion-tab [root]="applyLeaveRoot" tabTitle="Apply Leave" ></ion-tab>
