@@ -1,19 +1,15 @@
+<ion-header>
+    <ion-navbar color="newcolor">
+        <button ion-button menuToggle left>
+            <ion-icon class="menuicon" name="menu"></ion-icon>
+        </button>
+        <ion-title>Attendance</ion-title>
+    </ion-navbar>
+</ion-header>
 <ion-content>
-    <ion-grid>
-        <ion-row class="mbgAttendance">
-            <ion-col col-2 text-center>
-                <ion-icon class="menuicon" name="menu"></ion-icon>
-            </ion-col>
-                <ion-title><p class="mAttendance">Attendance</p></ion-title>
-        </ion-row>
-    </ion-grid>
-    <ion-grid>
-        <ion-row class="navAtten"></ion-row>
-                <ion-tabs>
-                        <ion-tab [root]="summaryPage" tabTitle="Summary" tabIcon = "star"></ion-tab>
-                        <ion-tab [root]="calendarPage" tabTitle="Calendar" tabIcon = "book"></ion-tab>
-                        <ion-tab [root]="tab3Root" tabTitle="Apply Leave" tabIcon = "star"></ion-tab>
-                </ion-tabs>
-        
-    </ion-grid>
+    <super-tabs selectedTabIndex="1" toolbarColor="light" toolbarBackground="dark" indicatorColor="indicator" >
+        <super-tab [root]="page1" title="Summary"></super-tab>
+        <super-tab [root]="page2" title="Calendar"></super-tab>
+        <super-tab [root]="page3" title="Apply Leave"></super-tab>
+    </super-tabs>
 </ion-content>

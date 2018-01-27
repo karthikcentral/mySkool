@@ -30,6 +30,7 @@ import { SummaryPage } from '../pages/summary/summary';
 import { CalendarPage } from '../pages/calendar/calendar';
 import { ApplyleavePage } from '../pages/applyleave/applyleave';
 
+import { SuperTabsModule } from 'ionic2-super-tabs';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { ApplyleavePage } from '../pages/applyleave/applyleave';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-  ],
+    SuperTabsModule.forRoot()
+    ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,

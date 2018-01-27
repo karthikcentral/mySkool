@@ -1,3 +1,23 @@
 page-calendar {
-
+    .dateCalen{
+        width:40px;
+        height:40px;
+        border-radius: 100%;
+        background:  map-get($colors, blacky);
+        max-width: 40px;
+        color:map-get($colors, indicator);
+        font-size: 20px;
+        text-align: center;
+    }
+    .textCalen{
+        font-size: 16px;
+        padding-left: 10px; 
+    }
+    .indiactorCalem{
+        width:30px;
+        height:30px;
+        max-width: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
 }

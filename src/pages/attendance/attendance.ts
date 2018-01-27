@@ -2,13 +2,12 @@ import { Component,trigger, state, style, animate, transition } from '@angular/c
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import moment from 'moment';
 import {HomePage} from '../../pages/home/home';
+import { SuperTabsModule } from 'ionic2-super-tabs';
+import { CalendarPage } from '../calendar/calendar';
+import { SummaryPage } from '../summary/summary';
+import { ApplyleavePage } from '../applyleave/applyleave';
 
-/**
- * Generated class for the AttendancePage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+
 @IonicPage()
 @Component({
   selector: 'page-attendance',
@@ -25,6 +24,10 @@ import {HomePage} from '../../pages/home/home';
 export class AttendancePage {
   monthList : any;
   userData :any;
+  page1 = SummaryPage;
+  page2 = CalendarPage;
+  page3 = ApplyleavePage;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.userData = this.getData().month;
     this.monthList = this.frameSwiper();
