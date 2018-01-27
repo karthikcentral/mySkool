@@ -22,10 +22,16 @@ page-attendance {
         color:white;
       }
 };
+.rowAttendance {
+  //width: 375px;
+  padding: unset;
+}
 .mbgAttendance {
   //width: 375px;
   height: 50px;
   background-color: #2a4e8e;
+  margin-left: -5px;
+  margin-right: -5px;
 };
 .mAttendance {
   //width: 102px;
@@ -39,6 +45,7 @@ page-attendance {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  text-transform: capitalize;
 };
 .menuicon{
   color : #ffffff;
@@ -47,4 +54,76 @@ page-attendance {
 .navAtten {
   height: 50px;
   background-color: #494949;
+};
+.tabs-md .tab-button-text {
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+};
+.tabs-md .tabbar {
+  background: #494949;
+};
+.tabs-md .tab-button[aria-selected=true] {
+  height: 4px;
+  color : #494949;
+  border-bottom-color : #f8e81c;
+  border-style: solid;
+  border-width: 4px;
+};
+.fixed {
+  position: fixed;
+};
+.tabs-ios .tabbar {
+  background: #494949;
+};
+.tabs-ios .tab-button[aria-selected=true] {
+  height: 4px;
+  color : #494949;
+  border-bottom-color : #f8e81c;
+  border-style: solid;
+  border-width: 4px;
+};
+.tabs-ios .tab-button-text {
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+};
+.tabs-ios .tab-button.has-title-only .tab-button-text {
+  font-size: 1.6rem;
 }
+.tabs-wp .tabbar {
+  background: #494949;
+}
+.tabs-wp .tab-button[aria-selected=true] {
+  height: 4px;
+  color : #494949;
+  border-bottom-color : #f8e81c;
+  border-style: solid;
+  border-width: 4px;
+};
+.tabs-wp .tab-button-text {
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+};

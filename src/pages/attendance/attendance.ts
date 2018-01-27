@@ -22,6 +22,12 @@ import { ApplyleavePage } from '../applyleave/applyleave';
   ]
 })
 export class AttendancePage {
+
+  summaryRoot = SummaryPage;
+  calendarRoot = CalendarPage;
+  applyLeaveRoot = ApplyleavePage;
+  
+
   monthList : any;
   userData :any;
   page1 = SummaryPage;
@@ -31,6 +37,7 @@ export class AttendancePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.userData = this.getData().month;
     this.monthList = this.frameSwiper();
+    
   }
 
   ionViewDidLoad() {
