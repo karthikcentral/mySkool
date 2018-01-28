@@ -1,3 +1,14 @@
-<ion-content padding>
-    <canvas #doughnutCanvas></canvas>
+<ion-content padding >
+    <ion-grid>
+        <ion-row >
+            <ion-col justify-content-center align-items-center>
+                <select ng-model="summaryType" class="expenseDrop" >
+                        <option value="Daily">Overall</option>
+                        <option value="Monthly">Monthly</option>
+                </select>
+                <canvas #doughnutCanvas></canvas>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    
 </ion-content>

@@ -9,6 +9,7 @@ import {NoticeboardPage} from '../../pages/noticeboard/noticeboard';
 import{ActivitiesPage} from  '../../pages/activities/activities';
 
 import { NgStyle } from '@angular/common';
+import { ProfilePage } from '../profile/profile';
 
 
 
@@ -63,5 +64,14 @@ export class HomePage {
   goMedia(){
     this.navCtrl.push(GalleryPage);
   }
+
+  goAnnouncement(){
+
+  }
+
+  goProfile(){
+    this.navCtrl.push(ProfilePage);
+  }
+
 
 }

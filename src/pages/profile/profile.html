@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar color="newcolor">
+        <button ion-button menuToggle left>
+            <ion-icon class="menuicon" name="menu"></ion-icon>
+        </button>
+        <ion-title>Profile</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content >
+  <ion-grid>
+  <ion-row style="background-color:#2a4e8e">
+    <ion-col>
+    </ion-col>
+    <ion-col style="text-align:center;color:white">
+      <span class="circle"></span>
+      <h3>Omar B.K </h3>
+      <p>8 Grade</p>
+    </ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+</ion-grid>
+    <super-tabs selectedTabIndex="0" toolbarColor="light" toolbarBackground="dark" indicatorColor="indicator" >
+        <super-tab [root]="page1" title="About"></super-tab>
+        <super-tab [root]="page2" title="Connects"></super-tab>
+        <super-tab [root]="page3" title="Settings"></super-tab>
+    </super-tabs>
+</ion-content>

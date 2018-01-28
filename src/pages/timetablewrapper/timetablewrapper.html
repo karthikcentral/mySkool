@@ -1,0 +1,11 @@
+<ion-content padding>
+  <ion-grid>
+    <ion-card *ngFor="let n of slots; let i =index" class="calendarCards">
+      <ion-row justify-content-center align-items-center >
+        <ion-col class="dateCalen"><span>{{n.start}}</span></ion-col>
+        <ion-col class="textCalen"><span>{{n.subject}}</span></ion-col>
+        <ion-col class="dateCalen"><span>{{n.end}}</span></ion-col>
+      </ion-row>
+    </ion-card>
+    </ion-grid>
+</ion-content>

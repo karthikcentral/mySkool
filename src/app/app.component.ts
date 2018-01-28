@@ -19,6 +19,7 @@ import{AttteacherclassPage} from  '../pages/attteacherclass/attteacherclass';
 import{NoticeboardPage} from  '../pages/noticeboard/noticeboard';
 import{ActivitiesPage} from  '../pages/activities/activities';
 import{StudentprofilePage} from  '../pages/studentprofile/studentprofile';
+import { ProfilePage } from '../pages/profile/profile';
 
 
 @Component({
@@ -28,7 +29,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   //rootPage: any = StudentprofilePage;
-  rootPage: any = AttendancePage;
+  rootPage: any = ProfilePage;
   activePage :any;
 
   pages: Array<{title: string, component: any, icon : any}>;

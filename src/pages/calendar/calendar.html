@@ -1,10 +1,25 @@
 <ion-content padding>
-
+    <select  [(ngModel)]="calenMonth" class="expenseDrop" (change)="frameData(calenMonth)">
+      <option value="01">January</option>
+      <option value="02">Feburary</option>
+      <option value="03">March</option>
+      <option value="04">April</option>
+      <option value="05">May</option>
+      <option value="06">June</option>
+      <option value="07">July</option>
+      <option value="08">August</option>
+      <option value="09">September</option>
+      <option value="10">October</option>
+      <option value="11">Nobember</option>
+      <option value="12">December</option>
+    </select>
+<ion-content style="height:90%">
 <ion-grid>
-  <ion-row justify-content-center align-items-center>
-    <ion-col class="dateCalen"><span>1</span></ion-col>
-    <ion-col class="textCalen"><span>Holiday</span></ion-col>
-    <ion-col class="indiactorCalem"><span></span></ion-col>
+  <ion-row justify-content-center align-items-center *ngFor="let n of numbers; let i =index" class="calendarCards">
+    <ion-col class="dateCalen"><span>{{i+1}}</span></ion-col>
+    <ion-col class="textCalen"><span>{{n.status}}</span></ion-col>
+    <ion-col class="indiactorCalem" [ngClass]="n.color"><span ></span></ion-col>
   </ion-row>
 </ion-grid>
+</ion-content>
 </ion-content>

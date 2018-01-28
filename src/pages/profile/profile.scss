@@ -1,0 +1,25 @@
+page-profile {
+
+    .circle{
+        width: 100%;
+        display: table;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 48px;
+        position: relative;
+        border: 3px solid  map-get($colors, header );
+        color: white;
+        font-family: Helvetica, Arial Black, sans-serif;
+        background: url('../assets/icon/profile.jpg') ;
+        background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center; 
+      }
+      .circle:before {
+        content: " ";
+        float: left;
+        height: 0;
+        width: 1px;
+        margin: 100% 0 0;
+        }
+}

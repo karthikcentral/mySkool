@@ -20,6 +20,21 @@ page-calendar {
         font-size: 20px;
         text-align: center;
     }
+    .calendarCards{
+        height: 60px;
+    }
+    .Orange{
+        background-color: orange;
+    }
+    .Green{
+        background-color: green;
+    }
+    .Red{
+        background-color: red;
+    }
+    .lightGreen{
+        background-color: lightgreen;
+    }
 }
 .no-scroll .scroll-content{
     overflow: hidden;

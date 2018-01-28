@@ -31,6 +31,14 @@ import { CalendarPage } from '../pages/calendar/calendar';
 import { ApplyleavePage } from '../pages/applyleave/applyleave';
 
 import { SuperTabsModule } from 'ionic2-super-tabs';
+import { TimetablewrapperPage } from '../pages/timetablewrapper/timetablewrapper';
+import { ProfilePage } from '../pages/profile/profile';
+import { ProfilewrapperPage } from '../pages/profilewrapper/profilewrapper';
+import { ConnectsPage } from '../pages/connects/connects';
+import { SettingsPage } from '../pages/settings/settings';
+import { ProfilewrapperPageModule } from '../pages/profilewrapper/profilewrapper.module';
+import { ConnectsPageModule } from '../pages/connects/connects.module';
+import { SettingsPageModule } from '../pages/settings/settings.module';
 
 @NgModule({
   declarations: [
@@ -57,7 +65,12 @@ import { SuperTabsModule } from 'ionic2-super-tabs';
     StudentprofilePage,
     SummaryPage,
     CalendarPage,
-    ApplyleavePage
+    ApplyleavePage,
+    TimetablewrapperPage,
+    ProfilePage,
+    ProfilewrapperPage,
+    ConnectsPage,
+    SettingsPage
   ],
   imports: [
     BrowserModule,
@@ -88,7 +101,12 @@ import { SuperTabsModule } from 'ionic2-super-tabs';
     StudentprofilePage,
     SummaryPage,
     CalendarPage,
-    ApplyleavePage
+    ApplyleavePage,
+    TimetablewrapperPage,
+    ProfilePage,
+    ProfilewrapperPage,
+    ConnectsPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,
