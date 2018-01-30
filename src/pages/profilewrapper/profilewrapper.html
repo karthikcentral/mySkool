@@ -1,3 +1,38 @@
 <ion-content padding>
-
+    <ion-grid>
+        <ion-row class="Guide-Edges" justify-content-center align-items-center>
+            <ion-col>
+                <ion-item>
+                    <ion-label>Lives In</ion-label>
+                    <ion-input type="text" [(ngModel)]="livesIn" ></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col col-2><ion-icon name="trash" (click)="clicklivesIn()"></ion-icon></ion-col>
+        </ion-row>
+        <ion-row class="Guide-Edges" justify-content-center align-items-center>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Son Of</ion-label>
+                        <ion-input type="text" [value]="sonName" readonly="true" ></ion-input>
+                    </ion-item>
+                </ion-col>
+         </ion-row>
+         <ion-row class="Guide-Edges" justify-content-center align-items-center>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Gender</ion-label>
+                        <ion-input type="text" [(ngModel)]="gender" readonly="true"></ion-input>
+                    </ion-item>
+                </ion-col>
+        </ion-row>
+        <ion-row class="Guide-Edges" justify-content-center align-items-center>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Address</ion-label>
+                        <ion-input type="text" [(ngModel)]="address" ></ion-input>
+                    </ion-item>
+                </ion-col>
+                <ion-col col-2><ion-icon name="trash" (click)="clearAddress()"></ion-icon></ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>

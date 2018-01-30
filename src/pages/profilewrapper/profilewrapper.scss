@@ -1,3 +1,28 @@
 page-profilewrapper {
 
 }
+.Guide-Edges {
+   // width: 357px;
+    height: 61px;
+  };
+  .item-ios.item-block .item-inner {
+    border : none;
+  };
+  .grid .item-md {
+    border : none;
+  };
+  .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner{
+    border-bottom-color : white;
+    box-shadow: unset;
+  };
+  .item-wp.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .text-input, .item-wp.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .text-input {
+    border-color : unset;
+  };
+  .text-input-wp {
+    border : unset;
+  };
+  .alignIcon {
+    display: flex!important;
+    align-content: center!important;
+    align-items: center!important;
+  };

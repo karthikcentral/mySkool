@@ -14,6 +14,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'profilewrapper.html',
 })
 export class ProfilewrapperPage {
+  livesIn:string = 'Dubai';
+  sonName:string = 'Basid';
+  gender:string = 'Male';
+  address:string = 'NA';
+  clicklivesIn() {
+    this.livesIn = null;
+  }
+  clearAddress() {
+    this.address = null;
+  }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
