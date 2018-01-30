@@ -10,6 +10,7 @@ import{ActivitiesPage} from  '../../pages/activities/activities';
 
 import { NgStyle } from '@angular/common';
 import { ProfilePage } from '../profile/profile';
+import { AnnouncementsPage } from '../announcements/announcements';
 
 
 
@@ -66,7 +67,7 @@ export class HomePage {
   }
 
   goAnnouncement(){
-
+    this.navCtrl.push(AnnouncementsPage)
   }
 
   goProfile(){

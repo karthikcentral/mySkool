@@ -25,9 +25,10 @@ page-home {
 };
 #section1 {
     //width: 375px;
-    height: 334px;
+   // height: 334px;
     background-color: #2a4e8e;
     padding: unset;
+    height: 50%;
 };
 .bgHome {
     //width: 375px;
@@ -86,6 +87,7 @@ page-home {
     height: 333px;
     background-color: #ffffff;
     padding: unset;
+    height: 50%;
   };
   .bgAttendance {
     // width: 375px;
@@ -97,7 +99,6 @@ page-home {
     padding-top: 10px;
     padding-left: 16px;
     padding-bottom: 29px;
-    height: 37px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 31px;
     font-weight: normal;
@@ -107,14 +108,18 @@ page-home {
     letter-spacing: 0.4px;
     text-align: center;
     color: #534b30;
+    height: 20%
   };
   .divsection1 {
     background-color: #003399;
     border: solid 1px #979797;
+    height: 100%;
+    
   };
   .divsection2 {
     background-color: #62a9e3;
     border: solid 1px #979797;
+    height: 100%;
   };
   .Timetable {
    // width: 98px;
@@ -151,6 +156,7 @@ page-home {
   .divsection3 {
     background-color: #637c8f;
     border: solid 1px #979797;
+    height: 100%;
   };
   .Announcement {
     //width: 149px;
@@ -171,6 +177,7 @@ page-home {
   .divsection4{
     background-color: #002144;
   border: solid 1px #979797;
+  height: 100%;
   };
   .Profile {
     //width: 64px;
@@ -188,3 +195,7 @@ page-home {
   .iconProfile {
     transform: translateY(25px);
   };
+
+  .moreRows{
+    height: 40%;
+  }

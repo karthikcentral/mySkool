@@ -29,7 +29,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   //rootPage: any = StudentprofilePage;
-  rootPage: any = AnnouncementsPage;
+  rootPage: any = HomePage;
   activePage :any;
 
   pages: Array<{title: string, component: any, icon : any}>;
